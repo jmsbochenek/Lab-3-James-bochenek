@@ -1,0 +1,87 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+
+html {
+  font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  background: #0000ff;
+  font-size: 1.125em;
+}
+
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+h2 {
+  text-align: right;
+  font-size: 100%;
+  margin-bottom: 0.5em;
+}
+
+fieldset
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15pt;
+  width: auto;
+  padding: 5px;
+  border-color: transparent;
+  background-color: #999999;
+}
+
+input {
+  margin-bottom: 0.5em;
+
+}
+
+@media screen and (min-width: 12.6em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (min-width: 24.8em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 100%;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 200%;
+  }
+}
+
+@media screen and (min-width: 61em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 250%;
+  }
+}
+
+@media screen and (min-width: 83.3em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 300%;
+  }
+}
